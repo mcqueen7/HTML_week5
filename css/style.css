@@ -3,6 +3,8 @@ html{
 }
 *,*:before,*:after{
     box-sizing: inherit;
+    margin:0;
+    padding:0;
 }
 body{ margin: 0; padding: 0; }
 .bg{
@@ -25,6 +27,7 @@ body{ margin: 0; padding: 0; }
 .main_title{
     width: 271px;
     height: 62px;
+    padding-top:5px;
     margin: 0px 469px 5px 0px;
     font-family: Arial;
     font-size: 44px;
